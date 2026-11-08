@@ -1,0 +1,9 @@
+---
+- name: Configurar servidor Nginx
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Executar a role servidor_nginx
+      ansible.builtin.include_role:
+        name: joao.servidor_nginx

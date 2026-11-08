@@ -1,0 +1,10 @@
+---
+galaxy_info:
+  author: João Victor Luiz
+  namespace: joao
+  role_name: servidor_nginx
+  description: Role Ansible para instalar e configurar o servidor Nginx
+  license: MIT
+  min_ansible_version: "2.15"
+
+dependencies: []
